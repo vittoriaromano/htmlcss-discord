@@ -13,7 +13,7 @@ debug
 ------------------
  */
 
- .debug header .header-top{
+ /* .debug header .header-top{
     height: 80px;
  }
 
@@ -21,7 +21,7 @@ debug
  .debug header .header-top .contenitore-1 {
     
     height: 40px; 
-}
+} */
 
 .debug header .header-bottom{
     height: 500px;
@@ -79,35 +79,50 @@ Common
 header-top
 ------------------
  */
+header{
+    border-bottom: 4px solid #255ee9;
+    color: white;
+ }
 .header-top{
-    background-color: #add8e6;
+    background-color: #255ee9;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 0;
 }
- .contenitore-1{
-    background-color: #daa520;
+.contenitore-1{
     display: flex;
     align-items: center;
     width: 1200px;
  }
  
- .item{
-    border: 2px dashed black;
+.logo{
     width: 20%;
     height: 100%;
-    line-height: 40px;
  }
 
-.due{
+.link{
+    vertical-align: middle;
     width: 60%;
     text-align: center;
  }
- header .due ul{
+ header .header-top .contenitore-1 .link ul{
     list-style-type: none;
     display: flex;
     gap: 10px;
     justify-content: center;
+ }
+ header .header-top .contenitore-1 .link ul li a{
+    text-decoration: none;
+    color: white;
+ }
+ header .header-top .contenitore-1 .login .accesso{
+    background-color: white;
+    color: #23272a;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 20%;
+    padding: 5px;
  }
 
  .tre{
@@ -119,9 +134,7 @@ header-top
 header-bottom
 ------------------
  */
- header{
-    border-bottom: 4px solid lightblue;
- }
+
  .header-bottom{
     background-color: #00008b;
     justify-content: center;
