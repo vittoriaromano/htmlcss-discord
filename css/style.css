@@ -1,67 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-
-
-
-/* 
-------------------
-debug
-------------------
- */
-
- /* .debug header .header-top{
-    height: 80px;
- }
-
-
- .debug header .header-top .contenitore-1 {
-    
-    height: 40px; 
-} */
-
-/* .debug header .header-bottom{
-    height: 500px;
-} */
-
-/* .debug header .header-bottom .box-one{
-    height: 440px;
-} 
-.debug main .main-base{
-    height: 500px;
-} 
-.debug main .main-base .img{
-    height: 440px;
-} */
-
-/* .debug main .main-base .rosa{
-    height: 440px;
-} */
-/* .debug main .main-base:last-child{
-    height: 1000px;
-}
-.debug main .main-base:last-child .green{
-    height: 800px; */
-
-
-.debug footer .footer .colum{
-    height: 400px;
-}
-
-.debug footer .footer .footer-box{
-    height:60px;
- }
- .debug footer .footer .footer-box .footer-item{
-    height: 30px;
- }
 /* 
 ------------------
 Common
 ------------------
  */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
 .container{
     margin: 0s auto;
 }
