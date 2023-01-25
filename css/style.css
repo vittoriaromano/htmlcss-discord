@@ -53,13 +53,13 @@ header{
     display: flex;
     align-items: center;
     width: 1000px;
- border: 1px solid black;
  }
  
 .logo{
     width: 20%;
     height: 100%;
-    vertical-align: middle;
+    display:flex;
+    align-items: center;
  }
 
 .link{
@@ -78,12 +78,16 @@ header{
     color: white;
  }
 
- /* non va a destra ?? */
+ .login{
+    text-align:right;
+    width: 20%;
+    
+ }
  header .header-top .contenitore-1 .login .accesso{
     background-color: white;
     color: #23272a;
     border: 1px solid white;
-    text-align:end;
+   
  }
 
   /* 
@@ -96,6 +100,7 @@ header-bottom
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding: 40px 0;
+    height: 600px;
  }
 
  .box-one{
@@ -143,7 +148,7 @@ main
     line-height: 30px;
 }
 .img{
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 
 #reverse{
@@ -192,7 +197,7 @@ footer
     background-color: #23272a;
 }
  hr{
-    color: lightslategray;
+    color:#7289da ;
  }
 .colum{
     /* background-color: #20b2aa; */
